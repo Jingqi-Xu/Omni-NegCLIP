@@ -18,6 +18,8 @@ conda create -n omninegclip python=3.10 -y
 conda activate omninegclip
 
 pip install -r requirements.txt
+```
+
 
 ## Data Preparation
 
