@@ -18,3 +18,7 @@ conda create -n omninegclip python=3.10 -y
 conda activate omninegclip
 
 pip install -r requirements.txt
+
+## Data Preparation
+
+Omni-NegCLIP is trained and evaluated based on the datasets used in [NegationCLIP](https://github.com/parkquasar/NegationCLIP) and [CoN-CLIP](https://github.com/jaisidhsingh/CoN-CLIP). Please refer to these two repositories for preparing the training and evaluation data.
