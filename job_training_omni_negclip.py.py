@@ -14,7 +14,7 @@ module purge
 module load conda
 
 eval "$(conda shell.bash hook)"
-conda activate conclip
+conda activate omninegclip
 cd src
 
 
