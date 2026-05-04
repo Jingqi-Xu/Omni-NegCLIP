@@ -32,3 +32,16 @@ After preparing the data, you can run the following script to train Omni-NegCLIP
 ```bash
 python job_training_omni_negclip.py
 ```
+
+## Citation
+
+If you find my work useful, please cite it using the following BibTeX snippet:
+
+```bibtex
+@article{xu2026omni,
+  title={Omni-NegCLIP: Enhancing CLIP with Front-Layer Contrastive Fine-Tuning for Comprehensive Negation Understanding},
+  author={Xu, Jingqi},
+  journal={arXiv preprint arXiv:2603.29258},
+  year={2026}
+}
+```
