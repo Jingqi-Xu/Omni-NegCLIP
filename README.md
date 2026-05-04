@@ -7,3 +7,14 @@
 <p align="center">
   <img src="Framework.jpg" width="90%">
 </p>
+
+## Installation
+
+```bash
+git clone https://github.com/Jingqi-Xu/Omni-NegCLIP.git
+cd Omni-NegCLIP
+
+conda create -n omninegclip python=3.10 -y
+conda activate omninegclip
+
+pip install -r requirements.txt
