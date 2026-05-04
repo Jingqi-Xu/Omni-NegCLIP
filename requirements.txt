@@ -1,0 +1,35 @@
+# ===========================================
+# CoN-CLIP Requirements
+# ===========================================
+# Install with: pip install -r requirements.txt
+# ===========================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OpenAI CLIP
+# Option 1: Install from GitHub (recommended)
+# pip install git+https://github.com/openai/CLIP.git
+# Option 2: If you have issues, uncomment below line
+# clip @ git+https://github.com/openai/CLIP.git
+
+# Image Processing
+Pillow>=9.0.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# CLIP Dependencies
+ftfy>=6.0.0
+regex>=2022.0.0
+
+# Progress Bar
+tqdm>=4.60.0
+
+# Machine Learning Utilities (for evaluation)
+scikit-learn>=1.0.0
+
+# Optional: For COCO evaluation
+pycocotools>=2.0.0
+
