@@ -24,3 +24,11 @@ pip install -r requirements.txt
 ## Data Preparation
 
 Omni-NegCLIP is trained and evaluated based on the datasets used in [NegationCLIP](https://github.com/parkquasar/NegationCLIP) and [CoN-CLIP](https://github.com/jaisidhsingh/CoN-CLIP). Please refer to these two repositories for preparing the training and evaluation data.
+
+## Training
+
+After preparing the data, you can run the following script to train Omni-NegCLIP:
+
+```bash
+python job_training_omni_negclip.py
+```
