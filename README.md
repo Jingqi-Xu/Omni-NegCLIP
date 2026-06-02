@@ -38,10 +38,11 @@ python job_training_omni_negclip.py
 If you find my work useful, please cite it using the following BibTeX snippet:
 
 ```bibtex
-@article{xu2026omni,
+@inproceedings{xu2026omni,
   title={Omni-NegCLIP: Enhancing CLIP with Front-Layer Contrastive Fine-Tuning for Comprehensive Negation Understanding},
   author={Xu, Jingqi},
-  journal={arXiv preprint arXiv:2603.29258},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9392--9401},
   year={2026}
 }
 ```
